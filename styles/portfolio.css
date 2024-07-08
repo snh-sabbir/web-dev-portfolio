@@ -166,4 +166,49 @@ main section div{
 .cv{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Footer styles */
+.footer-container{
+    display: flex;
+    background-color: #FFF8F3;
+}
+
+.footer-title{
+    width: 305px;
+    height: 48px;
+}
+
+.name{
+    width: 461px;
+    height: 64px;
+    margin-bottom: 10px;
+    border: none;
+}
+.email{
+    width: 461px;
+    height: 64px;
+    border: none;
+    margin-bottom: 10px;
+}
+.message{
+    width: 461px;
+    height: 180px;
+    margin-bottom: 10px;
+    border: none;
+    position: relative;
+}
+
+.footer-container{
+    padding: 130px 150px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.fb{
+    margin-right: 24px;
+}
+.insta{
+    margin-right: 24px;
 }
