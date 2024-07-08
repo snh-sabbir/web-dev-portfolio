@@ -109,3 +109,36 @@ p{
 
 
 /* About styles */
+.section{
+    background-color: #FFF83F;
+    padding: 130px 150px;
+    margin-top: 130px;
+    border-radius: 15px;
+    
+}
+
+.about{
+    font-family: Open Sans;
+    font: bold;
+    font-size: 35px;
+    color: #181818;
+    
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #757575;
+}
+
+.div-container{
+    
+    text-align: center;
+
+}
+
+main{
+    max-width: 1140px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
