@@ -103,7 +103,7 @@ nav{
     font-size: 18px;
     color: #757575;
 }
-main section{
+main section div{
     margin-top: 130px;
     margin-bottom: 130px;
 }
@@ -140,4 +140,30 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Resume section style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.summery-title{
+    text-align: center;
+    margin-bottom: 80px;
+    color: #181818;
+}
+
+.resume-title, .resume-name{
+    color: #474747;
+}
+
+.resume-post, .resume-description{
+    color: #757575;
+}
+
+.cv{
+    text-align: center;
+    margin-top: 20px;
 }
