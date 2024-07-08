@@ -24,6 +24,10 @@
     border: none;
     font-size: 20px;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 nav ul{
     text-decoration: none;
@@ -86,4 +90,33 @@ nav{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+
+/* About styles starts here */
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-content{
+    font-size: 18px;
+    color: #757575;
+}
+.about{
+    padding: 130px 150px;
+    text-align: center;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+.item-description{
+    font-weight: bold;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
